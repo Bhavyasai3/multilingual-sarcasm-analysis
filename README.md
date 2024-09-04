@@ -17,10 +17,13 @@ This project aims to develop an advanced sentiment and sarcasm analysis system f
  as well as Telugu languages.
  The use of dravadian languages is increasing significantly in the social media platforms and Telugu is one of the national languages in india with significant number of speakers. Telugu language for sarcasm contributes to the vast potential for sarcasm analysis that has been relatively untapped until now. We have also incorporated English as it is a global language.By harnessing the power of pre-trained transformer models, analyzing the textual content and visual elements such as emojis, our methodology is proposed to offer comprehensive perspective of user sentiment across cultures and enhance the capability of sarcasm detection systems by enabling a nuanced interpretation of sentiment that aligns more closely with human judgment.
  ### **Basic Models** 
+
 **BERT**
  BERT, which stands for Bidirectional Encoder Representations from Transformers, is based on transformers, a deep learning model in which every output element is connected to every input element, and the weightings between them are dynamically calculated based upon their connection. The BERT model is finetuned to effectively capture linguistic nuances and contextual cues specific to sarcasm across multiple languages, including English and Telugu.
+
 **Indic BERT**
  IndicBERT is a language model designed specifically for understanding and processing various Indian languages. Like its predecessor BERT, it uses a transformer architecture to read and understand entire sentences at once, but it’s tailored to handle the linguistic nuances and diversity of Indian languages. This includes languages like Hindi, Bengali, Tamil, Telugu, and many others. Indic BERT is specifically trained on diverse languages, including Hindi, Telugu, Tamil, Bengali, and others, making it particularly suited for analyzing sarcasm in multilingual contexts. Through fine-tuning Indic BERT on sarcasm labeled datasets in various Indic languages, it can be optimized in terms of its performance for detecting sarcastic expressions.
+
  **TF-IDF**
  TF-IDF (Term Frequency-Inverse Document Frequency) played a pivotal role in preprocessing textual data and extracting features for sarcasm detection. TF-IDF, a fundamental technique in natural language processing, enabled us to represent each sentence as a numerical vector based on the frequency of its constituent words across the dataset, while also considering their importance in distinguishing between sarcastic and non-sarcastic expressions. By computing the TF-IDF scores for words in the dataset, we obtained a high-dimensional feature space that captured the unique linguistic characteristics associated with sarcasm.
 
